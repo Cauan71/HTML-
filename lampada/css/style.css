@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(darkblue,white, darkred);
+    height: 100vh;
+    display: flex;
+    /*Alignitens = cima e baixo*/
+    /*Justify-Content = Esquerda e Direita*/
+    align-items: center;
+    justify-content: center;
+    /* Margin : Auto */
+}
+
+.central{
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.519);
+    /*Box-Shadow = y, x , enevoamento, cor */
+    display: flex;
+    /*só o pai que alinha */   
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Colocar os botões em baixo */
+    gap: 10px;
+    /* Distanciar os 2 botões */
+    padding: 10px;
+}
+
+.central button{
+    color: white;
+    background-color: rgb(13, 39, 66);
+    padding: 5px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer ;
+
+}
