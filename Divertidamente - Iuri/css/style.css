@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(rgb(64, 6, 157),black);
+    height: 100vh; /*altura da cor - completando a pagina*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+img{
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.emocoes{
+    width: fit-content; /*Largura dos elementos*/
+    background: white;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+.emocoes button{
+    width: 80px;
+    background-color: rgb(64, 6, 157);
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.emocoes button:hover{
+    background: black;
+    transform:translateY(-5px)
+
+}
+
+
+
+
