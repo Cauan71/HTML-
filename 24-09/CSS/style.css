@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+
+}
+.blue{
+    background: linear-gradient(blue,black);
+    /*background: url - para colocar imagem*/
+}
+
+.red{
+    background: linear-gradient(red,black);
+
+}
+
+.green{
+    background: linear-gradient(green,black);
+}
