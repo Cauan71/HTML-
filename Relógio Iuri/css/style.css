@@ -1,0 +1,82 @@
+body{
+    background: url("/Image/tobias-keller-73F4pKoUkM0-unsplash.jpg");
+    background-size: cover;
+    /*responsiva - se ajustar independente da tela*/
+    background-attachment: fixed;
+
+    /*background fixo*/
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.relogio{
+    background: rgba(255, 255, 255, 0.281);
+    padding: 30px;
+    width: 500px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.relogio div{ /* controla todas as divs do id relogio */
+    background: black;
+    color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.relogio span{
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.data_atual{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    gap: 5px;
+    margin: 10px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.horario{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    gap: 5px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#alvo{
+    width: 250px;
+    height: 250px;    
+}
